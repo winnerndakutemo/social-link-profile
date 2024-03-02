@@ -25,13 +25,16 @@ body {
 
   font-size: 14px;
   font-family: Inter, "Arial";
+  min-heigth: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 /* Position the card in the web page*/
 main {
-  display: flex;
-  grid-template-rows: 2% 1fr;
-  justify-content: center;
+  /* display: flex; */
+  /* grid-template-rows: 2% 1fr; */
+ /* justify-content: center; */
 }
 
 .card {
